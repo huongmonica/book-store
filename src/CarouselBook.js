@@ -19,9 +19,9 @@ const CarouselBook = () => {
         />
         <Carousel.Caption>
           <h3>
-            <span>First slide label</span>
+            <span>Many language books have arrived!</span>
           </h3>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+          <span>Check out our latest language book collection now!</span>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,9 +32,9 @@ const CarouselBook = () => {
         />
         <Carousel.Caption>
           <h3>
-            <span>Second slide label</span>
+            <span>Summer time!</span>
           </h3>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+          <span>Pick some books from our book store and enjoy the summer!</span>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,9 +45,9 @@ const CarouselBook = () => {
         />
         <Carousel.Caption>
           <h3>
-            <span>Third slide label</span>
+            <span>Webstore opening event</span>
           </h3>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+          <span>Come and get the best deals ever!</span>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
