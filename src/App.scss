@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500&display=swap");
+// Override default variables before the import
+$theme-colors: (
+  "primary": #ff595e,
+  "success": #8ac926,
+  "info": #1982c4,
+  "warning": #ffca3a,
+  "danger": #ffadad,
+  "light": #fffffc,
+  "dark": #000000,
+  "purple": #5b3758,
+  "dark-pink": #c65b7c,
+  "light-pink": #f9627d,
+  "coral-pink": #f9ada0,
+  "green": #83b692,
+);
+* {
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+// navbar
+#nav-brand {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+// carousel
+.carousel-caption h3 {
+  font-weight: 700;
+}
+.carousel-caption span {
+  color: white;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+.carousel-img {
+  height: 70vh;
+  opacity: 0.8;
+}
+// book list
+.book-list {
+  padding: 3rem 10vw;
+}
+.book-card {
+  width: 14rem;
+  height: 18rem;
+  overflow: hidden;
+}
+.card-text{
+  margin-bottom: 0;
+}
+// footer
+.footer {
+  height: 20vh;
+  background-color: #f9ada0;
+}
+
+// Import Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
